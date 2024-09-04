@@ -1,1 +1,14 @@
 /* Add custom css styles here */
+.header {
+    position: relative;
+}
+
+#headerText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(0,0,0,0.6);
+    border-radius: 1rem;
+}
